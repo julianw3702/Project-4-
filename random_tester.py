@@ -7,7 +7,7 @@ while(prompt == "1"):
 
     counter = [0,0,0,0,0,0,0,0,0,0,0,0,0]
     for i in range(int(test_range)):
-        counter[getRand()] += 1
+        counter[getRand() - 1] += 1
 
     num = 1
     for i in counter:
