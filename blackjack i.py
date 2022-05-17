@@ -9,6 +9,7 @@ Project 4: Gambling Philosophers
 import os
 import threading
 
+from random_threads import getRand
 #Define Randomizer Functions
 def getRand():
     thread = threading.Thread()
