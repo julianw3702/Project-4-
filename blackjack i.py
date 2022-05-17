@@ -10,14 +10,6 @@ import os
 import threading
 
 from random_threads import getRand
-#Define Randomizer Functions
-def getRand():
-    thread = threading.Thread()
-    thread.start()
-    randInt = thread.native_id % 13 + 1
-    thread.join()
-    return randInt
-
 
 #Define dealing functions
 def deal():
